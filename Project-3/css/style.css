@@ -1,0 +1,135 @@
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+}
+button{
+				background: hsl(0, 0%, 95%);
+				width: 150px;
+				height: 40px;
+				border: none;
+				border-radius: 20px;
+				font-weight: bold;
+}
+.container{
+				width: 90%;
+				height: 80vh;
+				margin: 10vh auto;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				box-shadow: 2px 2px 3px grey;
+}
+.inner-container{
+				width: 85%;
+				height: 80%;
+				margin: 10% auto;
+				display: flex;
+				overflow: scroll;
+				border-radius: 10px;
+}
+.item-flex{
+				flex-basis: 33%;
+				padding: 50px; 
+}
+.item-flex img{
+				margin-bottom: 30px;
+}
+.item-flex h1{
+				color: hsl(0, 0%, 95%);
+				margin-bottom: 50px;
+				font-family: sans-sarif;
+}
+.item-flex p{
+				color: hsla(0, 0%, 100%, 0.75);
+				margin-bottom: 70px;
+				font-family: sarif;
+}
+.item-1{
+				background: hsl(31, 77%, 52%);
+				border-radius: 10px 0 0 10px;
+				overflow: hidden;
+}
+.item-1 button{
+				color: hsl(31, 77%, 52%);
+}
+.item-1 button:hover{
+				background: hsl(31, 77%, 52%);
+				color: hsl(0, 0%, 95%);
+				border: 2px solid hsl(0, 0%, 95%);
+				border-radius: 20px;
+				transition: 0.5s;
+				cursor: pointer;
+}
+.item-2{
+				background: hsl(184, 100%, 22%);
+				overflow: hidden;
+}
+.item-2 button{
+				color: hsl(184, 100%, 22%);
+}
+.item-2 button:hover{
+				background: hsl(184, 100%, 22%);
+				color: hsl(0, 0%, 95%);
+				border: 2px solid hsl(0, 0%, 95%);
+				border-radius: 20px;
+				transition: 0.5s;
+				cursor: pointer;
+}
+.item-3{
+				background: hsl(179, 100%, 13%);
+				border-radius: 0 10px 10px 0;
+				overflow: hidden;
+}
+.item-3 button{
+				color: hsl(179, 100%, 13%);
+}
+.item-3 button:hover{
+				background: hsl(179, 100%, 13%);
+				color: hsl(0, 0%, 95%);
+				border: 2px solid hsl(0, 0%, 95%);
+				border-radius: 20px;
+				transition: 0.5s;
+				cursor: pointer;
+}
+.attribution{
+				padding: 40px 0;
+				letter-spacing: 1px;
+}
+.attribution a{
+				text-decoration: none;
+				color: darkblue;
+				font-style: italic;
+}
+@media only screen and (max-width: 400px){
+				.container{
+								width: 100%;
+								height: 100%;
+								margin: 0;
+				}
+				.inner-container{
+								flex-direction: column;
+				}
+				.item-flex{
+								padding: 50px;
+								
+				}
+				.item-flex h1{
+								margin-bottom: 30px;
+				}
+				.item-flex p{
+								margin-bottom: 30px;
+				}
+				.item-1{
+								border-radius: 10px 10px 0 0;
+				}
+				.item-3{
+								border-radius: 0 0 10px 10px;
+				}
+				.attribution{
+				padding: 40px 30px;
+				text-align: center;
+				letter-spacing: 1px;
+				}
+}
