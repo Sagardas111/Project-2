@@ -1,0 +1,82 @@
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+}
+.container{
+				position: relative;
+				overflow: hidden;
+				background-color: hsl(185, 75%, 39%);
+				width: 100%;
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+}
+.card{
+				width: 350px;
+				z-index: 1;
+				
+}
+
+.card-up{
+				height: 150px;;
+				background-image: url('../images/bg-pattern-card.svg');
+				border-radius: 10px 10px 0 0;
+}
+.card-middle{
+				background: ghostwhite;
+				text-align: center;
+				border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+.card-middle img{
+				transform: translateY(-50px);
+				border: 5px solid;
+				border-color: ghostwhite	hsl(185, 75%, 39%);
+				border-radius: 50%;
+}
+.card-middle h1{
+				transform: translateY(-30px);
+				font-family: sans-sarif;
+				color: hsl(229, 23%, 23%);
+}
+.card-middle p{
+				transform: translateY(-20px);
+}
+span, p{
+				color: hsl(227, 10%, 46%);
+}
+.card-down{
+				height: 100px;
+				display: flex;
+				background: ghostwhite;
+				justify-content: space-around;
+				align-items: center;
+				border-radius: 0 0 10px 10px;
+}
+.card-down h1{
+				font-family: sans-sarif;
+				color: hsl(229, 23%, 23%);
+}
+.attribution{
+				padding: 30px;
+				letter-spacing: 1px;
+				z-index: 1;
+}
+.attribution a{
+				
+				text-decoration: none;
+				font-style: italic;
+}
+.top-bg{
+				position: absolute;
+				top: -250px;
+				left: -250px;
+}
+.bottom-bg{
+				position: absolute;
+				bottom: -250px;
+				right: -250px;
+}
