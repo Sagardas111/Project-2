@@ -39,7 +39,7 @@
 }
 .card-middle h1{
 				transform: translateY(-30px);
-				font-family: sans-sarif;
+				font-family: 'Josefin Sans', sans-serif;
 				color: hsl(229, 23%, 23%);
 }
 .card-middle p{
@@ -57,7 +57,7 @@ span, p{
 				border-radius: 0 0 10px 10px;
 }
 .card-down h1{
-				font-family: sans-sarif;
+				font-family: 'Josefin Sans', sans-serif;
 				color: hsl(229, 23%, 23%);
 }
 .attribution{
